@@ -1,7 +1,7 @@
 import urllib
 from bs4 import BeautifulSoup
 i = 1
-while i < 1082:
+while i < 1089:
 	url = "https://boxnovel.com/novel/historys-number-1-founder/chapter"- + str(i) + "/"
 	html = urllib.urlopen(url).read()
 	soup = BeautifulSoup(html, features='html.parser')
